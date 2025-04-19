@@ -78,4 +78,48 @@ ebe629b3-cdee-4b10-80b8-06cf4fb878df.zip
 # Windows生成的文件
 Thumbs.db
 ehthumbs.db
-Desktop.ini 
+Desktop.ini
+
+# 特别忽略大文件目录
+/Library/PlayerDataCache/
+
+# 特别忽略大文件
+*.assets.resS
+*.zip
+*.so
+*.dll
+*.dylib
+
+# Gradle自动生成的文件
+.gradle/
+
+# 忽略所有大文件
+*.assets.resS
+*.zip
+*.so
+*.dll
+*.dylib
+
+# 忽略Unity3D自动生成的元数据
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D自动生成的文件
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D崩溃报告
+sysinfo.txt
+
+# 构建
+*.apk
+*.unitypackage
+
+# Crashlytics
+crashlytics-build.properties 
