@@ -1,0 +1,69 @@
+# Unity项目通用忽略文件
+
+# 忽略构建输出
+/[Bb]uild/
+/[Bb]uilds/
+/CowboyDemoBuild/
+
+# 忽略Unity生成的文件夹
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# 忽略Visual Studio/VS Code生成的文件
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D生成的meta文件
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D生成的崩溃报告
+sysinfo.txt
+
+# 构建
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# 忽略所有大型二进制文件（超过50MB）
+*.dylib
+*.so
+*.dll
+*.resS
+
+# Crashlytics生成的文件
+crashlytics-build.properties
+
+# 备份文件
+*.bak
+
+# 忽略特定资源包文件
+ebe629b3-cdee-4b10-80b8-06cf4fb878df.zip
+CowboyDemoPlayable_ChenZian.zip
+
+# macOS生成的文件
+.DS_Store
+
+# Windows生成的文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini 
